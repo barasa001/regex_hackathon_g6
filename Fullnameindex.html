@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width,  initial scale=1.o">
+<meta http-equiv-"X-UA-Compatible" content="ie=edge">
+    <title>FORM</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="error"></div>
+<form id="form" action="/" method="GET">
+<div>
+<label for="name">First Name:</label>
+<input id="fname" name="<?php $fname; ?>" type="text" class = "form-control form-control-lg" required>
+</form>
+<div>
+    <label for="name">Middle Name:</label>
+    <input id="mname" name="<?php $lname; ?>" type="text" class = "form-control form-control-lg">
+    </form>
+    <div>
+        <label for="name">Last Name:</label>
+        <input id="lname" name="<?php $lname; ?>" type="text" class = "form-control form-control-lg" required>
+        <button type="submit">SUBMIT</button>
+        </form>
+</body>
+</html>
